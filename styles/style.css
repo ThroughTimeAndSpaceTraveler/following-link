@@ -1,0 +1,54 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #8e8e8e;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 1.2rem;
+    line-height: 2;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    background: rgba(0,0,0,.05);
+    border-radius: 20px;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: .5em;
+    margin: 0 1em;
+    color: #000;
+}
+
+.highlight {
+    transition: all 0.2s;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    left: 0;
+    z-index: -1;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
